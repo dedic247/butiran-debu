@@ -37,6 +37,7 @@ public class Main {
         warehouse.showAllEquipments();
 
         warehouse.borrowEquipment("HT Radio", 2);
+        warehouse.borrowEquipment("HT",5);
 
         System.out.println();
         System.out.println("SETELAH PEMINJAMAN");
