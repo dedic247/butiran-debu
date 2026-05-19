@@ -27,9 +27,12 @@ public class Main {
                 7
         );
 
+        Equipment HT = new Equipment("HT","communication",10);
+
         warehouse.addEquipment(rope);
         warehouse.addEquipment(helmet);
         warehouse.addEquipment(radio);
+        warehouse.addEquipment(HT);
 
         warehouse.showAllEquipments();
 
